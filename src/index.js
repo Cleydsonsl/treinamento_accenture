@@ -18,6 +18,7 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hello World! {this.state.texto}</h1>
+        <h2>{this.state.texto}</h2>
         <input type="text" onChange={this.handleTextChange}></input>
         <button onClick={this.handleClick.bind(this)}>Click</button>
       </div>
