@@ -11,7 +11,7 @@ class App extends React.Component {
   }
   handleTextChange(e) {
     this.setState({
-      text: e.target.value
+      texto: e.target.value
     })
   }
   render() {
